@@ -49,5 +49,375 @@
         </div>
     </header>
 
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home-Intro -->
+        <section id="home"
+            class="w-full flex flex-col sm:flex-row justify-center sm:justify-evenly items-center gap-8 bg-gradient-to-b from-[#84a98c] to-[#52796f] text-white px-6 pt-30 pb-20">
+
+            <!-- Profile Image -->
+            <div class="w-40 sm:w-52 md:w-64 lg:w-72 overflow-hidden shadow-xl profile-img-container">
+                <img src="img/trupal_img1.jpeg" alt="Trupal Gondaliya" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Intro Text -->
+            <div class="text-center lg:text-left space-y-3 max-w-xl mt-6 sm:mt-0">
+                <h2 class="text-lg sm:text-xl md:text-2xl font-semibold">Hello, I'm</h2>
+                <h3 class="text-2xl sm:text-3xl md:text-4xl font-bold">Trupal Gondaliya</h3>
+                <p class="text-base sm:text-lg md:text-xl leading-relaxed">A passionate Frontend Developer.</p>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center lg:justify-start space-x-4 text-xl sm:text-2xl pt-4">
+                    <a href="#"
+                        class="border-2 border-white p-2 rounded-full hover:bg-white hover:text-orange-500 transition duration-300 ease-in-out"><i
+                            class="fa-brands fa-html5"></i></a>
+                    <a href="#"
+                        class="border-2 border-white p-2 rounded-full hover:bg-white hover:text-blue-700 transition duration-300 ease-in-out"><i
+                            class="fa-brands fa-css3-alt"></i></a>
+                    <a href="#"
+                        class="border-2 border-white p-2 rounded-full hover:bg-white hover:text-yellow-400 transition duration-300 ease-in-out"><i
+                            class="fa-brands fa-js"></i></a>
+                    <a href="#"
+                        class="border-2 border-white p-2 rounded-full hover:bg-white hover:text-black transition duration-300 ease-in-out"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#"
+                        class="border-2 border-white p-2 rounded-full hover:bg-white hover:text-blue-400 transition duration-300 ease-in-out"><i
+                            class="fa-brands fa-react"></i></a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Me -->
+        <section id="about" class="pt-20 bg-white pb-6">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center px-4 mb-6 tracking-wide leading-snug">
+                About <span class="text-[#a5a58d]">Me</span>
+            </h2>
+            <div class="container mx-auto px-6">
+                <div class="sm:flex gap-6 lg:w-[70%] mx-auto">
+                    <!-- Image section -->
+                    <div
+                        class="w-[50vw] mx-auto sm:float-left sm:w-[40%] group relative overflow-hidden border-4 border-[#354f52] rounded-4xl transition-all duration-300">
+                        <!-- Image -->
+                        <img src="img/trupal_img2.jpeg"
+                            class="rounded-3xl w-full h-full object-cover transition-all duration-300 group-hover:blur-sm">
+                        <!-- Hover Text without background -->
+                        <div
+                            class="absolute inset-0 flex items-center justify-center text-white text-xl font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            Hello, I'm Trupal!
+                        </div>
+                    </div>
+                    <!-- About Me Content -->
+                    <div class="sm:w-[70%] flex flex-col justify-between text-sm md:text-base lg:text-lg">
+                        <p class="mb-6 mt-6">
+                            Hi, I'm Trupal Gondaliya, a passionate Front-End Developer from Surat, Gujarat. I love
+                            turning creative ideas into responsive, user-friendly web interfaces. I specialize in
+                            building modern web applications using HTML, CSS, JavaScript, and React.js.
+
+                            I enjoy crafting clean and efficient code, designing visually appealing layouts, and
+                            ensuring seamless user experiences across all devices. I’m constantly exploring new
+                            technologies like Tailwind CSS, and APIs to improve my development skills.
+                        </p>
+                        <h3 class="font-bold mb-5 md:text-sm lg:text-base">My goal is to grow as a MERN Stack Developer,
+                            combining creativity and technology to build impactful web solutions.</h3>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="bg-gradient-to-r from-[#84a98c] to-[#52796f] pt-20 pb-10">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center px-4 mb-6 tracking-wide leading-snug text-white">
+                My Skills</h2>
+            <div class="container mx-auto px-6 flex flex-col sm:flex-row gap-6 lg:w-[90%]">
+                <!-- Linear Skill Bars (left) -->
+                <div
+                    class="p-5 bg-white rounded-2xl flex flex-col justify-evenly space-y-2 flex-1 text-xs sm:text-sm md:text-base">
+                    <!-- First skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>HTML/CSS</span><span>95%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[95%] skill-fill"></div>
+                        </div>
+                    </div>
+                    <!-- Second skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>JavaScript</span><span>85%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[85%] skill-fill"></div>
+                        </div>
+                    </div>
+                    <!-- Third skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>Data Structures & Algorithm</span><span>75%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[75%] skill-fill"></div>
+                        </div>
+                    </div>
+                    <!-- Forth skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>React</span><span>10%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[10%] skill-fill"></div>
+                        </div>
+                    </div>
+                    <!-- Fifth skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>Git - GitHub</span><span>85%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[85%] skill-fill"></div>
+                        </div>
+                    </div>
+                    <!-- sixth skill block -->
+                    <div>
+                        <div class="flex justify-between mb-1">
+                            <span>PHP</span><span>75%</span>
+                        </div>
+                        <div class="w-full bg-[#e5e7eb] rounded-full h-2">
+                            <div class="w-[75%] skill-fill"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Circular Meters (right) -->
+                <div class="p-5 rounded-2xl bg-white">
+                    <div class="flex flex-row sm:flex-col justify-evenly items-center gap-4 md:px-6">
+                        <!-- Creativity -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-24 h-24 md:w-30 md:h-30 rounded-full"
+                                style="background: conic-gradient(#354f52 0% 90%, #e5e7eb 0% 100%)">
+                                <div
+                                    class="absolute inset-2 md:inset-3 bg-white rounded-full flex items-center justify-center">
+                                    <span class="text-sm md:text-base font-semibold text-gray-700">90%</span>
+                                </div>
+                            </div>
+                            <p class="mt-1 text-sm sm:text-base md:text-lg font-semibold">Teamwork & Collaboration</p>
+                        </div>
+                        <!-- Communication -->
+                        <div class="flex flex-col items-center">
+                            <div class="relative w-24 h-24 md:w-30 md:h-30 rounded-full"
+                                style="background: conic-gradient(#354f52 0% 85%, #e5e7eb 0% 100%)">
+                                <div
+                                    class="absolute inset-2 md:inset-3 bg-white rounded-full flex items-center justify-center">
+                                    <span class="text-sm md:text-base font-semibold text-gray-700">85%</span>
+                                </div>
+                            </div>
+                            <p class="mt-1 text-sm sm:text-base md:text-lg font-semibold">Problem-Solving
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications -->
+        <section id="certifications" class=" bg-white pt-20 pb-10">
+            <!-- Heading -->
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center px-4 mb-6 tracking-wide leading-snug">
+                Certificates</h2>
+            <div class="container mx-auto px-6 grid sm:grid-cols-2 md:w-[80vw] lg:grid-cols-4 gap-6 lg:w-[95vw]">
+                <!-- First Card -->
+                <div class="certificate-card p-4 bg-[#cad2c5] rounded-2xl h-full flex flex-col justify-between">
+                    <div class="flex flex-col space-y-2 flex-grow">
+                        <div class="inline-block">
+                            <span
+                                class="bg-yellow-200 text-yellow-800 text-xs md:text-base px-3 py-1 rounded-full font-medium">
+                                Web Development-Course
+                            </span>
+                        </div>
+                        <h3 class="text-base font-bold md:text-xl">
+                            Full Stack Web Development (Ongoing)
+                        </h3>
+                        <p class="text-xs text-gray-700 md:text-base">
+                            Currently enrolled in the Full Stack Web Development course by Internshala,
+                            covering front-end and back-end technologies including HTML, CSS, JavaScript, React,
+                            Node.js, and MongoDB.
+                        </p>
+
+                    </div>
+                </div>
+                <!-- Second Card -->
+                <div class="certificate-card p-4 bg-[#cad2c5] rounded-2xl h-full flex flex-col justify-between">
+                    <div class="flex flex-col space-y-2 flex-grow">
+                        <div class="inline-block">
+                            <span
+                                class="bg-yellow-200 text-yellow-800 text-xs md:text-base px-3 py-1 rounded-full font-medium">Internshala</span>
+                        </div>
+                        <h3 class="text-base font-bold md:text-xl">HTML & CSS</h3>
+                        <p class="text-xs text-gray-700 md:text-base"> Completed module on HTML and CSS as part of
+                            Internshala’s Full Stack Web Development course,
+                            learning semantic HTML, responsive design, and modern CSS frameworks.</p>
+                        <a href="certificate/HTML-CSS (FSD) certificate.pdf" target="_blank"
+                            class="mt-auto bg-[#354f52] hover:bg-[#84a98c] text-white px-4 py-2 rounded text-xs  md:text-base font-medium w-fit">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+                <!-- Third Card -->
+                <div class="certificate-card p-4 bg-[#cad2c5] rounded-2xl h-full flex flex-col justify-between">
+                    <div class="flex flex-col space-y-2 flex-grow">
+                        <div class="inline-block">
+                            <span
+                                class="bg-yellow-200 text-yellow-800 text-xs md:text-base px-3 py-1 rounded-full font-medium">
+                                Internshala</span>
+                        </div>
+                        <h3 class="text-base font-bold md:text-xl">JavaScript</h3>
+                        <p class="text-xs text-gray-700 md:text-base">Completed JavaScript fundamentals module focusing
+                            on ES6 concepts, DOM manipulation, and building dynamic, interactive web pages.</p>
+                        <a href="certificate/JS (FSD) certificate.pdf" target="_blank"
+                            class="mt-auto bg-[#354f52] hover:bg-[#84a98c] text-white px-4 py-2 rounded text-xs md:text-base font-medium w-fit">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+                <!-- Forth Card -->
+                <div class="certificate-card p-4 bg-[#cad2c5] rounded-2xl h-full flex flex-col justify-between">
+                    <div class="flex flex-col space-y-2 flex-grow">
+                        <div class="inline-block">
+                            <span
+                                class="bg-yellow-200 text-yellow-800 text-xs md:text-base px-3 py-1 rounded-full font-medium">Internnship</span>
+                        </div>
+                        <h3 class="text-base font-bold md:text-xl">Junior Web Developer</h3>
+                        <p class="text-xs text-gray-700 md:text-base">Completed a front-end development internship where
+                            I worked on responsive web pages,
+                            improved UI performance, and collaborated on real-world projects using HTML, CSS, and
+                            JavaScript.</p>
+                        <a href="certificate/Internship Completion Certificate  .pdf" target="_blank"
+                            class="mt-auto bg-[#354f52] hover:bg-[#84a98c] text-white px-4 py-2 rounded text-xs md:text-base font-medium w-fit">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="bg-gradient-to-r from-[#52796f] to-[#84a98c] pt-20 pb-10">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center px-4 mb-6 tracking-wide leading-snug text-white">
+                Projects</h2>
+            <div class="container mx-auto flex overflow-x-auto w-[90%] gap-4 snap-x snap-mandatory no-scrollbar p-10">
+                <!--First: Weather Forecast-->
+                <div
+                    class="project-card bg-white p-2 rounded-2xl min-w-[250px] min-h-[350px] flex flex-col justify-between snap-center sm:min-w-[350px]">
+                    <img src="img/weatherForecast.png" alt="Weather Forecast App"
+                        class="h-40 w-full object-cover rounded-md mb-4">
+                    <div>
+                        <h3 class="text-md font-semibold mb-2 sm:text-lg md:text-xl">Weather Forecast App</h3>
+                        <p class="text-gray-700 mb-2 overflow-hidden text-xs text-ellipsis sm:text-sm md:text-base">
+                            Displays real-time weather updates using a public weather API.</p>
+                        <p class="text-xs text-gray-500 sm:text-sm md:text-base">
+                            <strong>Tech Used:</strong> HTML, CSS, JavaScript
+                        </p>
+
+                        <p class="text-lg text-blue-600 hover:underline"><a
+                                href="https://trupal-gondaliya.github.io/Weather-Forecast-Application/"
+                                target="_blank">View the app</a></p>
+                    </div>
+                </div>
+                <!-- Second: Indian Recipes Website -->
+                <div
+                    class="project-card bg-white p-2 rounded-2xl min-w-[250px] min-h-[350px] flex flex-col justify-between snap-center sm:min-w-[350px]">
+                    <img src="img/cravecrafters.png" class="h-40 w-full object-cover rounded-md mb-4">
+                    <div>
+                        <h3 class="text-md font-semibold mb-2 sm:text-lg md:text-xl">Indian Recipes Website</h3>
+                        <p class="text-gray-700 mb-2 overflow-hidden text-xs text-ellipsis sm:text-sm md:text-base">
+                            Showcases regional Indian cuisines with responsive recipe pages.</p>
+                        <p class="text-xs text-gray-500 sm:text-sm md:text-base">
+                            <strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP
+                        </p>
+                        <p class="text-lg text-blue-600 hover:underline"><a
+                                href="https://github.com/Trupal-Gondaliya/CraveCrafters" target="_blank">GitHub link</a>
+                        </p>
+                    </div>
+                </div>
+                <!--Third: Personal Portfolio -->
+                <div
+                    class="project-card bg-white p-2 rounded-2xl min-w-[250px] min-h-[350px] flex flex-col justify-between snap-center sm:min-w-[350px]">
+                    <img src="img/portfolio.jpg" alt="Portfolio" class="h-40 w-full object-cover rounded-md mb-4">
+                    <div>
+                        <h3 class="text-md font-semibold mb-2 sm:text-lg md:text-xl">Personal Portfolio</h3>
+                        <p class="text-gray-700 mb-2 overflow-hidden text-xs text-ellipsis sm:text-sm md:text-base">
+                            A responsive one-page portfolio showcasing my skills and projects.</p>
+                        <p class="text-xs text-gray-500 sm:text-sm md:text-base">
+                            <strong>Tech Used:</strong> HTML, CSS, Tailwind CSS
+                        </p>
+                        <p class="text-lg text-blue-600 hover:underline"><a
+                                href="https://github.com/Trupal-Gondaliya/Portfolio" target="_blank">GitHub link</a>
+                        </p>
+                    </div>
+                </div>
+                <!--Forth: Health Vault -->
+                <div
+                    class="project-card bg-white p-2 rounded-2xl min-w-[250px] min-h-[350px] flex flex-col justify-between snap-center sm:min-w-[350px]">
+                    <img src="img/healthvault.png" class="h-40 w-full object-cover rounded-md mb-4">
+                    <div>
+                        <h3 class="text-md font-semibold mb-2 sm:text-lg md:text-xl lg:text-2xl">Health Vault</h3>
+                        <p class="text-gray-700 mb-2 overflow-hidden text-xs text-ellipsis sm:text-sm md:text-base">
+                            A medical supply management app for customers, distributors, and salesmen.
+                        </p>
+                        <p class="text-xs text-gray-500 sm:text-sm md:text-base">
+                            <strong>Tech Used:</strong> HTML, CSS, JavaScript, PHP, MySQL
+                        </p>
+                        <p class="text-lg text-blue-600 hover:underline"><a
+                                href="https://healthvaultproject.infinityfreeapp.com/?i=1" target="_blank">View the app</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conatc Me -->
+        <section id="contact" class="bg-[#354f52] text-white py-20 px-6">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-10 tracking-wide">
+                Contact Me
+            </h2>
+
+            <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                <!-- Left: Info -->
+                <div class="space-y-4">
+                    <p class="text-lg">
+                        I'm always open to discussing web development projects, collaborations, or new opportunities.
+                    </p>
+                    <div>
+                        <p class="text-sm uppercase font-semibold text-[#cad2c5]">Email</p>
+                        <p class="text-base">trupalgondaliya@gmail.com</p>
+                    </div>
+                    <div>
+                        <p class="text-sm uppercase font-semibold text-[#cad2c5]">Phone</p>
+                        <p class="text-base">+91 63534 50230</p>
+                    </div>
+                    <div>
+                        <p class="text-sm uppercase font-semibold text-[#cad2c5]">Location</p>
+                        <p class="text-base">Surat, Gujarat, India</p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="flex space-x-4 pt-4">
+                        <a href="https://github.com/Trupal-Gondaliya" target="_blank"
+                            class="hover:text-[#84a98c] text-2xl"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/yourusername" target="_blank"
+                            class="hover:text-[#84a98c] text-2xl"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:trupalgondaliya@gmail.com" class="hover:text-[#84a98c] text-2xl"><i
+                                class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
 </body>
 </html>
