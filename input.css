@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+
+/* Hide Scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* NavBar Hover Effect */
+.nav-item:hover {
+  display: inline-block;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transform: scale(1.2);
+  color: oklch(79.5% 0.184 86.047);
+}
+.nav-item {
+  transition: all 0.5s linear;
+}
+/* Navbar Logo */
+.logo {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+/* Logo Hover Effect */
+.logo:hover {
+  animation: bounce 1s infinite;
+}
+/* Animation for Logo */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(-15px);
+  }
+
+  50% {
+    transform: translateY(7px);
+  }
+
+  70% {
+    transform: translateY(-7px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
