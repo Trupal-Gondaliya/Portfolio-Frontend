@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trupal-Portfolio</title>
+    <!-- Tailwind Css Link -->
+    <link href="output.css" rel="stylesheet">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<!-- Content Body -->
+
+<body class="font-[poppins] text-[#354f52]">
+
+    <!-- Header -->
+    <header class="bg-white shadow-2xl fixed top-0 left-0 z-50 w-full">
+        <div class="max-w-7xl mx-auto pl-6 py-4 flex justify-between items-center space-x-6">
+            <div class="text-lg font-bold text-[#354f52] sm:text-2xl md:text-xl logo cursor-pointer">
+                <span class="bg-[#354f52] text-white p-2 rounded-xl">Trupal</span>Gondaliya
+            </div>
+
+            <!-- Navbar -->
+            <nav class="flex items-center space-x-4 md:space-x-2 md:text-lg lg:space-x-5">
+                <ul class="hidden md:flex space-x-7 font-bold md:space-x-3 lg:space-x-5">
+                    <li><a href="#home" class="nav-item">Home</a></li>
+                    <li><a href="#about" class="nav-item">About</a></li>
+                    <li><a href="#skills" class="nav-item">Skills</a></li>
+                    <li><a href="#certifications" class="nav-item">certifications</a></li>
+                    <li><a href="#projects" class="nav-item">Projects</a></li>
+                    <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+                <div class="flex items-center space-x-2">
+                    <!-- Theme toggle -->
+                    <div
+                        class="p-1.5 border rounded-full text-base sm:text-2xl text-yellow-500 bg-white hover:bg-black hover:text-white cursor-progress">
+                        <i class="fa-solid fa-sun"></i>
+                    </div>
+                    <!-- Side-bar(mobile only) -->
+                    <div class="md:hidden text-2xl cursor-pointer">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+</body>
+</html>
